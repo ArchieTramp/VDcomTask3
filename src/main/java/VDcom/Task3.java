@@ -2,8 +2,6 @@ package VDcom;
 
 import VDcom.classes.MathMoney;
 import VDcom.classes.MathVitC;
-import VDcom.interfaces.MathMoneyInterface;
-import VDcom.interfaces.MathVitCInterface;
 
 /**
  * @author Artur Gilyazov
@@ -22,12 +20,16 @@ public class Task3 {
 
 
     public static void main(String[] args) {
+
         String outputMoney = "1 EURO = 0,92 GBP\n1 USD = 73,15 RUB\n1 USD = 0,76 GBP";
         String outputVitC = "0,012 g VitC = 1 apple\n3 apple = 1.2 lime\n1 lemon = 1,5 lime";
-        System.out.println(outputMoney+"\n"+outputVitC);
+
+        System.out.println(outputMoney + "\n" + outputVitC);
+
         MathMoney mm = new MathMoney();
         mm.mathMoney();
+
         MathVitC mvc = new MathVitC();
         mvc.mathVitC();
-        }
+    }
 }

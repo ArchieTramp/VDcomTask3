@@ -22,8 +22,9 @@ public class MathMoney implements MathMoneyInterface {
         gbp = euro * 0.92;
         usd = gbp / 0.76;
         rub = usd * 73.15;
-        // способ выше удобен тем, что понятнее зависимости, но возможен и подход ниже
+        // способ выше удобен тем, что понятнее зависимости, но возможны и подходы ниже, хотя дают меньше информативности
 //        rub = 0.92 * 73.15 * euro / 0.76;
+//        rub = 88.55 * euro;
         System.out.println(euro + " EURO = " + rub + " RUB");
     }
 }
