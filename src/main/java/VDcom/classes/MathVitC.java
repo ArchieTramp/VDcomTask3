@@ -5,7 +5,7 @@ import VDcom.interfaces.MathVitCInterface;
 import java.util.Scanner;
 
 /**
- * Класс просчитывающий количества витамина С в зависимости от фруктов
+ * Класс просчитывающий количество витамина С в зависимости от фруктов
  */
 
 public class MathVitC implements MathVitCInterface {
